@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dr. Amélie · Queens Hairstyle</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Jost:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="site.css">
+<style>
+  :root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="demo-ribbon" role="note">
+  <div class="wrap">
+    <span data-i18n="ribbon">Design demonstration by Dalal Technologies · not the live salon website</span>
+    <a href="notes.html" data-i18n="ribbon.notes">Presentation notes for the owner</a>
+  </div>
+</div>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Queens Hairstyle, home"><img src="img/WORDMARK_ONLY_05_Emerald_Transparent.svg" alt="Queens Hairstyle" width="114" height="40"></a>
+    <div class="head-right">
+      <nav class="nav" aria-label="Main">
+        <a href="index.html" data-i18n="p.back">Home</a>
+        <a href="index.html#work" data-i18n="nav.work">The work</a>
+        <a href="index.html#live" data-i18n="nav.live">Queens Live</a>
+      </nav>
+      <div class="lang" role="group" aria-label="Language / Langue">
+        <button type="button" id="lang-en" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
+        <button type="button" id="lang-fr" data-lang="fr" aria-pressed="false" aria-label="Français">FR</button>
+      </div>
+      <a class="btn btn-emerald btn-sm" href="index.html#book" data-i18n="cta.book">Book</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="profile" aria-labelledby="p-title">
+    <div class="wrap">
+      <div class="ring">
+        <div class="mirror">
+          <img src="img/founder-960.webp" srcset="img/founder-480.webp 480w, img/founder-960.webp 960w" sizes="(min-width: 900px) 470px, 84vw" alt="Dr. Amélie, founder of Queens Hairstyle, in a studio portrait" width="960" height="1248" fetchpriority="high">
+        </div>
+      </div>
+      <div style="display:grid;gap:22px;min-width:0">
+        <span class="eyebrow reveal" data-i18n="p.eyebrow">Profile</span>
+        <h1 id="p-title"><span class="line"><span>Dr.</span></span> <span class="line"><span><em>Amélie</em></span></span></h1>
+        <p class="dek reveal" data-i18n="p.dek">Braider, instructor, doctor of philosophy. The woman who founded Queens Hairstyle.</p>
+        <div class="btn-row reveal">
+          <a class="btn btn-gold" href="index.html#book" data-i18n="bk.cta">Book an appointment</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" aria-label="Her story">
+    <div class="wrap">
+      <article class="facet">
+        <div class="mirror"><img src="img/freestyle-ponytail-480.webp" alt="Freestyle cornrows with curved patterns, by Dr. Amélie" width="480" height="600" loading="lazy"></div>
+        <div class="body">
+          <span class="num" data-i18n="p.f1.num">I</span>
+          <h2 data-i18n="p.f1.t">The braider</h2>
+          <p data-i18n="p.f1.b1">Knotless and box braids, cornrows and stitch braids, Senegalese and passion twists, micro-locs and locs: her menu covers the full vocabulary of African hairstyling.</p>
+          <p class="muted" data-i18n="p.f1.b2">Her photographs show its signature: clean geometric parts, heart and wave patterns, gold finishing touches.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="band emerald" aria-label="Her teaching">
+    <div class="wrap">
+      <article class="facet flip">
+        <div class="mirror"><img src="img/twists-480.webp" alt="Senegalese twists over square parts, by Dr. Amélie" width="480" height="600" loading="lazy"></div>
+        <div class="body">
+          <span class="num" data-i18n="p.f2.num">II</span>
+          <h2 data-i18n="p.f2.t">The instructor</h2>
+          <p data-i18n="p.f2.b1">On Instagram she introduces herself as a Montréal braider and instructor. She teaches the craft she practises every day in the studio.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="band" aria-label="Her scholarship">
+    <div class="wrap">
+      <article class="facet">
+        <div class="mirror"><img src="img/founder-480.webp" alt="Dr. Amélie in a studio portrait" width="480" height="600" loading="lazy" style="object-position:50% 12%"></div>
+        <div class="body">
+          <span class="num" data-i18n="p.f3.num">III</span>
+          <h2 data-i18n="p.f3.t">The scholar</h2>
+          <p data-i18n="p.f3.b1">The title before her name is earned: she holds a doctorate in philosophy.</p>
+          <p class="muted" data-i18n="p.f3.b2">A rare figure in her field: a scholar who works with her hands.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="band ivory-deep" aria-labelledby="follow-t">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">@queens.hairstyle</span>
+        <h2 id="follow-t" data-i18n="p.follow.t">Follow her work</h2>
+      </div>
+      <div class="social-row">
+        <a class="social" href="https://www.instagram.com/queens.hairstyle/" target="_blank" rel="noopener"><b>Instagram</b><span data-i18n="p.ig">Her styles and behind the scenes, day by day.</span></a>
+        <a class="social" href="https://www.tiktok.com/@queens.hairstyle" target="_blank" rel="noopener"><b>TikTok</b><span data-i18n="p.tt">Her short videos.</span></a>
+        <a class="social" href="https://www.youtube.com/@queenshairstyle" target="_blank" rel="noopener"><b>YouTube</b><span data-i18n="p.yt">Her longer videos and Shorts.</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="band dark" aria-labelledby="pcta">
+    <div class="wrap" style="display:grid;gap:22px;justify-items:start">
+      <h2 id="pcta" style="font-size:var(--step-3)" data-i18n="p.cta.t">Take a seat in her chair</h2>
+      <div class="btn-row">
+        <a class="btn btn-gold" href="index.html#book" data-i18n="bk.cta">Book an appointment</a>
+        <a class="btn btn-line" href="index.html#menu" data-i18n="p.cta.b">See the styles</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <img src="img/01_Original_Gold_Transparent.svg" alt="Queens Hairstyle, braids, twists, locs" width="182" height="64">
+      <nav class="foot-links" aria-label="Social">
+        <a href="https://www.instagram.com/queens.hairstyle/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@queens.hairstyle" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.youtube.com/@queenshairstyle" target="_blank" rel="noopener">YouTube</a>
+      </nav>
+    </div>
+    <div class="foot-small">
+      <span>© 2026 Queens Hairstyle · Montréal</span>
+      <span data-i18n="ft.demo">Demonstration designed by Dalal Technologies</span>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Queens Hairstyle · Presentation notes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="site.css">
+<style>:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Back to the Queens Hairstyle demo"><img src="img/WORDMARK_ONLY_05_Emerald_Transparent.svg" alt="Queens Hairstyle" width="114" height="40"></a>
+    <a class="btn btn-emerald btn-sm" href="index.html">View the demo</a>
+  </div>
+</header>
+<main class="band notes" style="padding-top:40px">
+  <div class="wrap" style="display:grid;gap:0">
+    <div style="display:grid;gap:12px;padding-bottom:24px">
+      <span class="eyebrow">Internal · Dalal Technologies</span>
+      <h1>Presentation notes for Dr. Amélie</h1>
+      <p class="muted measure">This page is not part of the public site. It explains what the redesign changes and lists everything to confirm before launch.</p>
+    </div>
+
+    <section>
+      <h2>What the new site does that the current one doesn't</h2>
+      <ol>
+        <li><b>Her personal brand is the centre.</b> The current site doesn't name the founder anywhere. The new one opens with her portrait and gives her a dedicated profile page.</li>
+        <li><b>Her social content has a home.</b> Queens Live brings Instagram, TikTok and YouTube together on the site, newest first, with filters.</li>
+        <li><b>Her styles are easier to explore.</b> A gallery of her real work, a filterable menu of 13 styles and a three-question style finder.</li>
+        <li><b>Inspiration leads straight to booking.</b> Every photo, post and menu item links to the matching booking page.</li>
+        <li><b>English and French.</b> One tap switches the whole site; the choice is remembered.</li>
+        <li><b>She controls featured content without code.</b> Feature, hide and link posts to styles from a private dashboard (previewed in the owner controls).</li>
+      </ol>
+      <p class="muted measure">These are capabilities, not results. Once live, we will measure bookings, booking-page visits and social clicks against the current site's numbers before claiming any improvement.</p>
+    </section>
+
+    <section>
+      <h2>Editorial checklist before launch</h2>
+      <ul class="checklist">
+        <li>Confirm "Dr. Amélie" is her preferred public name, and whether to add her surname.</li>
+        <li>Confirm the exact doctorate: degree title, field (philosophy), university and year. The site states "doctorate in philosophy" and must not go live until she confirms it.</li>
+        <li>Confirm what she teaches as an instructor: courses, audience, location, and whether to list them.</li>
+        <li>Confirm the studio address (4992 Avenue Bessborough), postal code and closing time. The current site lists two addresses and three sets of hours.</li>
+        <li>Record a short interview for her own words, quotes and the founder video. No quotes or video are generated on her behalf.</li>
+        <li>Provide any collaborations, press or awards, each with a source.</li>
+        <li>Confirm the promise line "Every hairstyle is designed to bring out the queen in you", taken from the current homepage.</li>
+        <li>Confirm prices for each style, or keep "From $60" as on the current site.</li>
+        <li>Reconcile the locs retie schedule (the current site says both 4/6/8 weeks and 4–6 / 6–8 weeks).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How Queens Live works once connected</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Platform</th><th>Method</th><th>What she must do</th></tr></thead>
+          <tbody>
+            <tr><td>Instagram</td><td>Instagram Graph API: photos, carousels, Reels, captions, dates, permalinks</td><td>Use a Business or Creator account and authorize the app once</td></tr>
+            <tr><td>TikTok</td><td>TikTok's official developer API (Display API): videos, captions, links</td><td>Authorize her TikTok account</td></tr>
+            <tr><td>YouTube</td><td>YouTube Data API: videos and Shorts from her channel</td><td>Confirm the channel (@queenshairstyle)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted measure">A scheduled job collects new posts every few hours and stores captions, dates and media links in a small database. Access tokens stay on the server and are refreshed automatically. Deleted or unavailable posts drop out; if a connection expires, the site keeps showing the last good posts and alerts her. Everything she pins or hides from the dashboard overrides the automatic feed. No scraping is used. Exact API access terms will be checked with each platform at setup.</p>
+    </section>
+
+    <section>
+      <h2>Quality checks on this demo</h2>
+      <ul id="qa">
+        <li>Screen widths tested: 320, 360, 390, 414 and 430 px (phones), 768 px (tablet), 1366 px (desktop).</li>
+        <li>No sideways scrolling at any tested width, on every page.</li>
+        <li>Buttons, links and controls are at least 44 px tall to tap.</li>
+        <li>English and French switching, gallery arrows, thumbnails and swipe, Live filters and owner controls, style finder and copy buttons.</li>
+        <li>Text contrast checked against WCAG AA on ivory and emerald backgrounds.</li>
+        <li>Reduced-motion setting turns off all animation; the page stays complete.</li>
+        <li>All booking and social links point to the salon's real pages.</li>
+      </ul>
+    </section>
+  </div>
+</main>
+</body>
+</html>
