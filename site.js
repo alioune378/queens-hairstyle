@@ -24,6 +24,8 @@
     'nav.founder': 'Son histoire', 'nav.work': 'Ses créations', 'nav.live': 'Queens Live', 'nav.menu': 'Coiffures',
     'cta.book': 'Réserver',
     'hero.caption': 'Fondatrice de Queens Hairstyle',
+    'hero.name': 'Dre Amélie',
+    'p.h1': '<span class="line"><span>Dre</span></span> <span class="line"><span><em>Amélie</em></span></span>',
     'hero.eyebrow': 'Montréal · tresses, twists, locs',
     'hero.title': '<span class="line"><span>Derrière chaque couronne,</span></span> <span class="line"><span><em>il y a une histoire.</em></span></span>',
     'hero.lead': 'Découvrez l’art, la vision et la femme derrière Queens Hairstyle.',
