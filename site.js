@@ -445,5 +445,5 @@
   });
 
   var saved = store('qh-lang');
-  applyLang(saved || ((navigator.language || '').toLowerCase().indexOf('fr') === 0 ? 'fr' : 'en'));
+  applyLang(saved || 'fr');
 })();
